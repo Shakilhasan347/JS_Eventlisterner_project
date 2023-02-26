@@ -87,7 +87,8 @@ function result(CirclerResult,shape){
     button.fontSize="40px";
     list.appendChild(button);
     showResult.appendChild(list);
- 
+ list.style.textAlign="left";
+ list.style.listStyle="none";
     button.addEventListener("click",function(){
         showResult.removeChild(list);
        
